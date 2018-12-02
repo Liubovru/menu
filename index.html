@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h2>Dropdown Menu</h2>
+    <ul class="navlist">
+      <li class="menu"><a href="#home">Home</a></li>
+      <li class="menu"><a href="#about">About</a></li>
+      <li class="menu">
+        <a href="javascript:void(0);" onclick="myFunction()" class="dropbtn">Products</a>
+        <ul id="myDropdown" class="dropdown-content">
+          <li><a href="#shoes">Shoes</a></li>
+          <li><a href="#bags">Bags</a></li>
+          <li><a href="#accessories">Accessories</a></li>
+        </ul>
+      </li>
+      <li class="menu"><a href="#contacts">Contacts</a></li>
+    </ul>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
